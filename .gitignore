@@ -1,0 +1,8 @@
+# Ignora tutti i file CSV in qualunque directory
+*.csv
+
+# Ignora tutti i file NPY in qualunque directory
+*.npy
+
+# Ignora tutti i file TXT in qualunque directory
+*.txt
