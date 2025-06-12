@@ -4,7 +4,7 @@ This project focuses on **classification of human activities** using features ex
 - Accelerometer
 - Gyroscope
 
-The goal is to aggregate compatible datasets, extract a consistent set of features, and develop models (including neural networks) for robust activity classification.
+The goal is to aggregate compatible datasets, extract a consistent set of features, and develop models (including neural networks) for robust activity classification. In this context, the use of phone sensors for Human Activity Recognition (HAR) is motivated by the desire to create models that can run efficiently on mobile devices. While deep learning typically involves feeding raw, unprocessed data to the network, similar to how shallow machine learning approaches often require feature engineering, the key difference here is that we're interested in making the model small enough to run on a phone. To achieve this, a significant portion of the computational load is moved to an earlier stage—feature extraction—before training, to reduce the model complexity during the inference phase. The goal is to strike a balance between extracting meaningful features that can aid classification and keeping the model lightweight and efficient enough for real-time use on mobile devices.
 
 ---
 
