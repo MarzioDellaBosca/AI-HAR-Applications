@@ -38,9 +38,9 @@ Each notebook:
 
 ## 🤖 Modeling & Experiments
 
-The notebook `ProgettoApplicazioniIA.ipynb` handles:
+The notebooks `ProgettoApplicazioniIA.ipynb` and `datasetUni.ipynb` handle:
 - Aggregation of feature sets from multiple datasets (where possible)
-- Dataset balancing and preprocessing
+- Dataset scaling
 - Implementation of various **neural network architectures**
 - Evaluation of performance on consistent activity labels across datasets
 
