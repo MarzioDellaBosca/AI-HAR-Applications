@@ -6,3 +6,6 @@
 
 # Ignora tutti i file TXT in qualunque directory
 *.txt
+
+# Ignora tutti i file pth in qualunque directory
+*.pth
